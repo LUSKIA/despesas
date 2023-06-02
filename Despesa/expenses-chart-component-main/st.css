@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans',sans-serif ;
+    background-color: hsl(27, 66%, 92%);
+
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+header{
+    background-color:  hsl(10, 79%, 65%);
+    width: 550px;
+    height: 110px;
+    border-radius: 15px;
+
+    margin-top: 300px;
+}
+
+main header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.svg{
+
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.titulo{
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 0.3rem;
+
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+.interacao{
+    width: 540px;
+    height: 370px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 200px;
+    margin-top:20px;
+
+    border-radius: 10px ;
+    
+    
+
+} 
+
+.info{
+    font-family: 'DM sans',sans-serif;
+    font-size: 30px;
+}
+
+
+.altura{
+    width: 15px;
+    height: 10px;
+    background-color: black;
+}
+
+.aling{
+
+    display: flex;
+    gap: 10px;
+
+}
